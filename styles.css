@@ -55,4 +55,11 @@ font-family:'Courier New', Courier, monospace;
 .but0:hover, .but1:hover, .but2:hover {
     background-color: rgb(175, 255, 255);
     cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    user-select: none;
+}
+.but0:active, .but1:active, .but2:active {
+    background-color: rgb(172, 193, 255);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
