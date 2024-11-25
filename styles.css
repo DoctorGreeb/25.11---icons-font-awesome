@@ -1,0 +1,58 @@
+.leftMenu {
+  background-color: rgb(209, 233, 253);
+  width: 150px;
+  border-radius: 5px;
+}
+.leftMenu::before {
+    content: "Extra Text";
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15%;
+}
+.leftMenu::after {
+    content: "Extra Text";
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15%;
+}
+.but0, .but1, .but2 {
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.but0 { 
+    border: 1px solid #000;
+    border-radius: 5px 5px 0 0;
+    }
+.but1 {
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+}
+.but2 {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-radius: 0 0 5px 5px;
+    }
+.icon {
+    margin-left: 5px;
+    width: 25px;
+}
+.text1 {
+font-family:'Courier New', Courier, monospace;
+}
+.text1::first-letter {
+    color: rgb(21, 0, 255);
+}
+.text1::first-line {
+    font-size:smaller
+}
+.text1::selection {
+    color: rgb(67, 226, 43);
+    background-color: rgb(0, 255, 55);
+}
+.but0:hover, .but1:hover, .but2:hover {
+    background-color: rgb(175, 255, 255);
+    cursor: pointer;
+}
